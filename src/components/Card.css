@@ -1,0 +1,49 @@
+
+.container{
+    max-width: 1300px;
+  
+}
+section{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+   
+}
+.cards{
+    display: flex; 
+    justify-content: space-between; 
+    display: flex;
+    list-style: none;
+    
+}
+.card{
+   background: burlywood;
+   padding:20px ;
+   margin: 5px;
+   border-radius: 10px;
+   transition: .3s;
+   border: 2px solid transparent;
+}
+.card:hover{
+    border-color: brown;
+}
+
+@media (min-width: 768px)   {
+    .card{
+      width:25%;
+    }
+  }
+  
+  @media (max-width: 575.98px)  {
+    .card{
+      width: 100%;
+      
+    }
+    .cards{
+        flex-wrap:wrap ;
+    }
+  }

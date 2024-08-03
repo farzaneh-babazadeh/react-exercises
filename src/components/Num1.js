@@ -15,8 +15,10 @@ const Num1 = () => {
        
             
 <>
-<div className='mt-5 container'>
-<div className='row justify-content-center'>
+<div className='mb-5'>
+<h2 className='text-center mt-5 '>Practice Num 1</h2>
+<div className='mt-md-5 container'>
+ <div className='row justify-content-center'>
 <aside className='mt-3 pt-5 col-md-3 col-sm-12'>
 <ul className='d-flex flex-md-column flex-sm-row m-md-5'>
 <i className=' tab px-1 m-2 btn btn-outline-dark' onClick={()=>setState(1)}>Show Post 1</i>
@@ -82,6 +84,7 @@ The eagle soars majestically in the sky, a symbol of strength, freedom, and pers
 </div>
 </div>
 
+</div>
 </div>
 </>
 

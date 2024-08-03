@@ -35,9 +35,12 @@ const Num4 = () => {
         
     ])
     return (
-      
-            <section className='mt-5' >
-                <div className='container mt-5'>
+  <>
+   <div className='mb-5'>
+   <hr/>
+  <h2 className='text-center mt-5'>Practice Num 4</h2>
+   <section className='mt-4' >
+      <div className='container mt-5'>
 
 <div className='cards'>
 {cards.map((card,i) => (
@@ -52,7 +55,8 @@ const Num4 = () => {
 </div>
                 </div>
             </section>
-    
+   </div>
+    </>
     );
 };
 

@@ -46,8 +46,12 @@ class Num5 extends Component {
     render() {
         return (
             
-            <section className='mt-5'>
-                <div className='container mt-5'>
+  <>
+  <div>
+    <hr/>
+  <h2 className='text-center mt-5'>Practice Num 5</h2>
+  <section className='mt-4'>
+    <div className='container mt-5'>
 
 <div className='cards'>
 {this.state.cards.map((card,i) => (
@@ -62,6 +66,9 @@ class Num5 extends Component {
 </div>
                 </div>
             </section>
+    
+  </div>
+  </>
       
     );
        

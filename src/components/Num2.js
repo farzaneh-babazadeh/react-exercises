@@ -41,8 +41,11 @@ const Card = () => {
 
     return (
         
-          
-            <section className='container mt-5'>
+ <>
+ <div className='mb-5'>
+    <hr/>
+ <h2 className='text-center mt-5'>Practice Num 2</h2>
+ <section className='container mt-5'>
                 <div className='row'>
 
 <div className='cards'>
@@ -58,6 +61,8 @@ const Card = () => {
 </div>
                 </div>
             </section>
+ </div>
+ </>
        
     );
 };
